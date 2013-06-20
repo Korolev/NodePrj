@@ -8,11 +8,11 @@ function onRequest(request, response) {
     '<head>'+
     '<meta http-equiv="Content-Type" content="text/html; '+
     'charset=UTF-8" />'+
-    '<script> var timeId = setTimeout(funcion(){
-		var el = document.getElementById("content");
-		el.innerHtml("www qqq eee");
-		location.hash = "megaresponse!!"
-    },3000);</script>'+
+    '<script> var timeId = setTimeout(funcion(){'+
+		'var el = document.getElementById("content");'+
+		'el.innerHtml("www qqq eee");'+
+		'location.hash = "megaresponse!!"'+
+    '},3000);</script>'+
     '</head>'+
     '<body>'+
     '<h1>From <script>document.write(window.location.hostname)</script></h1>'+
