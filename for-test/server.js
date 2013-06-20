@@ -22,8 +22,8 @@ function onRequest(request, response) {
     '</html>';
 
   console.log("Request received for: "+parseurl.query);
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.write("Hello World "+parseurl.pathname+" query"+parseurl.query);
+  response.writeHead(200, {"Content-Type": "text/html"});
+  response.write(body);
   response.end();
 }
 
