@@ -10,7 +10,7 @@ function onRequest(request, response) {
     'charset=UTF-8" />'+
     '<script> window.onload = function(){'+
     	'console.log("window load");'+
-    	'var timeId = setTimeout(funcion(){'+
+    	'var timeId = setTimeout(function(){'+
     	'console.log("window load + timeout");'+
 		'var el = document.getElementById("content");'+
 		'el.innerHtml("www qqq eee");'+
